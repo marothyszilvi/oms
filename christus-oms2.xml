@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
-<!DOCTYPE TEI SYSTEM "../src/tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -10,8 +10,10 @@
 			<editionStmt>
 				<edition>Kritikai kiadás 1.0</edition>
 				<respStmt>
-					<resp xml:lang="hun">szerkesztette: </resp>
-					<resp xml:lang="eng">editor: </resp>
+					<resp xml:lang="hun">szerkesztette:
+					</resp>
+					<resp xml:lang="eng">editor:
+					</resp>
 					<persName xml:id="hi" ref="//viaf.org/viaf/36719478">
 						<surname>Horváth</surname>
 						<forename>Iván</forename>
@@ -22,8 +24,10 @@
 					</persName>
 				</respStmt>
 				<respStmt>
-					<resp xml:lang="hun">közreműködtek: </resp>
-					<resp xml:lang="eng">assistant research fellow: </resp>
+					<resp xml:lang="hun">közreműködtek:
+					</resp>
+					<resp xml:lang="eng">assistant research fellow:
+					</resp>
 					<persName xml:id="kj">
 						<surname>Keresztény</surname>
 						<forename>Júlia</forename>
@@ -34,8 +38,10 @@
 					</persName>
 				</respStmt>
 				<respStmt>
-					<resp xml:lang="hun">XML szerkesztés: </resp>
-					<resp xml:lang="eng">XML-editor: </resp>
+					<resp xml:lang="hun">XML szerkesztés:
+					</resp>
+					<resp xml:lang="eng">XML-editor:
+					</resp>
 					<persName xml:id="msz">
 						<surname>Maróthy</surname>
 						<forename>Szilvia</forename>
@@ -74,9 +80,12 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl xml:id="forrasBibl">
-					<title ref="http://nyelvemlekek.oszk.hu/adatlap-dupla/leuveni_kodex_%E2%80%93_omagyar_mariasiralom">Leuveni kódex</title>, <orgName ref="//viaf.org/viaf/137912193">Országos Széchényi Könyvtár</orgName>, <idno>MNy 79</idno>, 134v </bibl>
+					<title ref="http://nyelvemlekek.oszk.hu/adatlap-dupla/leuveni_kodex_%E2%80%93_omagyar_mariasiralom">Leuveni kódex</title>,
+					<orgName ref="//viaf.org/viaf/137912193">Országos Széchényi Könyvtár</orgName>,
+					<idno>MNy 79</idno>, 134v
+				</bibl>
 				<listBibl xml:id="kritikaiBibl">
-					<bibl xml:id="kB01">Vizkelety András 2004: Az európai prédikációirodalom recepciója a Leuveni kódexben – Die Rezeption der europäischen Sermonesliteratur im „Löwener Kodex”, Bp., Akadémiai Kiadó  (Fragmenta et codices in bibliothecis Hungariae, IV).</bibl>
+					<bibl xml:id="kB01">Vizkelety András 2004: Az európai prédikációirodalom recepciója a Leuveni kódexben – Die Rezeption der europäischen Sermonesliteratur im „Löwener Kodex”, Bp., Akadémiai Kiadó (Fragmenta et codices in bibliothecis Hungariae, IV).</bibl>
 					<bibl xml:id="kB02">Pais Dezső 1942: [Mária siralmának olvasása és értelmezése] = Horváth János (szerk.) 1942 (második kiadás): Magyar versek könyve, Bp., Magyar Szemle Társaság, 33.</bibl>
 					<bibl xml:id="kB03">Németh László 1942: Kisebbségben, I–II, Bp., Magyar Élet kiadása.</bibl>
 					<bibl xml:id="kB04">Czuczor–Fogarasi: A magyar nyelv szótára, szerk. Czuczor Gergely, Fogarasi János, Pest, Athenaeum, 1862–1874.</bibl>
@@ -84,20 +93,32 @@
 					<bibl xml:id="kB06">Benkő 1980: Az Árpád-kor magyar nyelvű szövegemlékei, Bp., Akadémiai Kiadó..</bibl>
 					<bibl xml:id="kB07">TESz: A ​magyar nyelv történeti-etimológiai szótára, főszerk. Benkő Loránd, Bp., Akadémiai Kiadó, 1995.</bibl>
 					<bibl xml:id="kB08">Horváth Iván 2006: Gépeskönyv, Bp., Balassi, 2006.</bibl>
-					<bibl xml:id="kB09">Horváth Iván 2015: Ómagyar szövegemlékek mint textológiai tárgyak, Bp., OSZK (Információtörténeti műhely). Elektronikus verzió (PDF): <ref target="http://mek.oszk.hu/15400/15446">http://mek.oszk.hu/15400/15446</ref>
+					<bibl xml:id="kB09">Horváth Iván 2015: Ómagyar szövegemlékek mint textológiai tárgyak, Bp., OSZK (Információtörténeti műhely). Elektronikus verzió (PDF):
+						<ref target="http://mek.oszk.hu/15400/15446">http://mek.oszk.hu/15400/15446</ref>
 					</bibl>
 					<bibl xml:id="kB10">Maróthy Szilvia 2014: A Christus poetico planctus (Ómagyar Mária-siralom) verstani tagolójelei, Irodalomtörténeti Közlemények, 118(2014)/1, 71–76.</bibl>
 				</listBibl>
 				<listBibl xml:id="latinBibl">
 					<bibl xml:id="bischoff">
-						<title type="main">Carmina Burana</title>. Mit Benutzung der Vorarbeiten Wilhelm Mayers kritisch herausgegeben von <editor>Alfons Hilka</editor> und <editor>Otto Schumann</editor>. <title type="sub"></title>I. Band: Text 3. Die Trink- und Spiellieder. Die geistlichen Dramen. Nachtrage. Herausgegeben von <editor>Otto Schumann</editor> und <editor><persName ref="//viaf.org/viaf/73866279">Bernhard Bischoff</persName>
-						</editor>. <placeName ref="http://www.geonames.org/2907911">Heidelberg</placeName>, <date when-iso="1970">1970</date>.</bibl>
+						<title type="main">Carmina Burana</title>. Mit Benutzung der Vorarbeiten Wilhelm Mayers kritisch herausgegeben von
+						<editor>Alfons Hilka</editor>
+						und
+						<editor>Otto Schumann</editor>.
+						<title type="sub"></title>I. Band: Text 3. Die Trink- und Spiellieder. Die geistlichen Dramen. Nachtrage. Herausgegeben von
+						<editor>Otto Schumann</editor>
+						und
+						<editor>
+							<persName ref="//viaf.org/viaf/73866279">Bernhard Bischoff</persName>
+						</editor>.
+						<placeName ref="http://www.geonames.org/2907911">Heidelberg</placeName>,
+						<date when-iso="1970">1970</date>.</bibl>
 					<bibl xml:id="B">Fragm. Bur., fol. IVr. Leírva és hiánytalanul ellátva neumákkal, 13. század (körülbelül a közepe), mielőtt a „Ludus (breviter) de passione” be lett volna írva. 1a–2b; 3a, 1/2; 3b, 3/4, 1/2; 6a–8b.</bibl>
 					<bibl xml:id="E1">Evreux 2, 13. század, Lyre-ből, fol. 3v–4v, egyszólamú dallammal, hevenyészett négyzet alakú notációval leírva.</bibl>
 					<bibl xml:id="E2">Evreux 39, 13. század, Lyre-ből, fol. 1v–2r, egyszólamú dallammal, négyzet alakú notációval leírva.</bibl>
 					<bibl xml:id="K">Karlsruhe, Aug. 36, 14/15 század, Németországból, fol. 149r, előtte: „Loco, Salve”. 1a–3b; 5a; 8b–9b. Hanyagul leírva; az olvasatot csak körültekintéssel szabad figyelembe venni.</bibl>
 					<bibl xml:id="La">London, British Museum, Add. 36881, 12. század, S. Martinal-ból, Limoges (?), fol. 25r–27v, hozzátoldás 13. században (egybevetette Herbert Thoma).</bibl>
-					<bibl xml:id="Lo" corresp="#forrasBibl">Löwen, Ms. IV, 28, 13. század második fele, toszkán eredet, fol 199r, az I. világháború után szerzett kézirat elégett. Tartalmazza a Planctus egy rímes, ómagyar fordítását (14. század), más források alapján. 1a–2b; 3b; 4b; 4a; 5 (átalakítással); 6a–8b. Crucior dolore (1a, 3) 3b, 4a, 5, 6b után áll refrén-szerű zárlatként.</bibl>
+					<bibl xml:id="Lo" corresp="#forrasBibl">Löwen, Ms. IV, 28, 13. század második fele, toszkán eredet, fol 199r, az I. világháború után szerzett kézirat elégett. Tartalmazza a Planctus egy rímes, ómagyar fordítását (14. század), más források alapján.
+						1a–2b; 3b; 4b; 4a; 5 (átalakítással); 6a–8b. Crucior dolore (1a, 3) 3b, 4a, 5, 6b után áll refrén-szerű zárlatként.</bibl>
 					<bibl xml:id="Ma">Párizs, Bibliothèque Mazarine, 1002 (nem 942), 13. század, fol. 235–237, dallammal.</bibl>
 					<bibl xml:id="N">Namur, Musee Archeologique, 104, 15. szd., fol. 77r.</bibl>
 					<bibl xml:id="O">Oxford, Bodleian Library, Add. A. 44., fol. 80r, 81r.</bibl>
@@ -114,26 +135,50 @@
 			<notesStmt>
 				<note>
 					<title>A kiadásról</title>
-					<p>Az Ómagyar Mária-siralom feltevésünk szerint saját kezű, szerzői kézirat.<note><ref target="#kB09">Horváth 2015</ref>: 53.</note>
+					<p>Az Ómagyar Mária-siralom feltevésünk szerint saját kezű, szerzői kézirat.<note>
+							<ref target="#kB09">Horváth 2015</ref>: 53.</note>
 					</p>
-					<p>Az <hi rend="italic">Ómagyar Mária-siralom</hi>, vagy régi-új nevén <hi rend="italic">Christus poetice planctus</hi>
-						<note>Cím a Leuveni kódex tartalomjegyzéke alapján. <ref target="3.1.">Bővebben>></ref>
-						</note> XML alapú kritikai kiadásának készítésekor a szöveget irodalmi műnek tekintettük.</p>
+					<p>Az
+						<hi rend="italic">Ómagyar Mária-siralom</hi>, vagy régi-új nevén
+						<hi rend="italic">Christus poetice planctus</hi>
+						<note>Cím a Leuveni kódex tartalomjegyzéke alapján.
+							<ref target="3.1.">Bővebben>></ref>
+						</note>
+						XML alapú kritikai kiadásának készítésekor a szöveget irodalmi műnek tekintettük.</p>
 					<p>Az átírás legnyersebb rétege az írásjelek sorrendjében közli a szöveget anélkül, hogy a jelkészlet elemeinek jelentését is megpróbálnók rekonstruálni. Ez a diplomatikai átírás.</p>
-					<p>A betűhű kritikai kiadás a következő réteg. Ebben már tekintetbe vettük, hogy bizonyos írásjelek között a különbség csupán írástechnikai. A virgulák – független attól, hogy egyetlen vonásból, vagy két egymást metsző vonásból állnak – hol sorvégi kötőjelek, hol pedig verssor-határ jelölői. Az előbbi esetben elhagyjuk őket, s csupán végrehajtjuk a kötőjellel kifejezett utasítást a szó összevonásával. Az utóbbi esetben gondolatjellel fejezzük ki a szerző azon szándékát, hogy a metrikai határt megjelölje. Ugyanerre a sorsa jut a punctum is mint a versszak-határ explicit kifejezése.<note><ref target="#kB10">Maróthy 2014.</ref>
+					<p>A betűhű kritikai kiadás a következő réteg. Ebben már tekintetbe vettük, hogy bizonyos írásjelek között a különbség csupán írástechnikai. A virgulák – független attól, hogy egyetlen vonásból, vagy két egymást metsző vonásból állnak – hol sorvégi
+						kötőjelek, hol pedig verssor-határ jelölői. Az előbbi esetben elhagyjuk őket, s csupán végrehajtjuk a kötőjellel kifejezett utasítást a szó összevonásával. Az utóbbi esetben gondolatjellel fejezzük ki a szerző azon szándékát, hogy a metrikai határt
+						megjelölje. Ugyanerre a sorsa jut a punctum is mint a versszak-határ explicit kifejezése.<note>
+							<ref target="#kB10">Maróthy 2014.</ref>
 						</note>
 					</p>
 					<p>A mai befogadást segíti a modernizált helyesírású harmadik réteg, amely a szerző feltételezhető kiejtését igyekszik követni, kivéve azon hangokat, amelyek a mai magyar irodalmi nyelvből már kivesztek.</p>
-					<p>A <hi rend="italic">Christus poetice planctus</hi> elég szorosan követte irodalmi mintáját, <persName ref="//viaf.org/viaf/261910300">Godefridus de Sancto Victore</persName>
-						<hi rend="italic">Planctus ante nescia</hi> kezdetű költeményének rövid változatát, amelynek nagyon hibás másolata a Leuveni kódexben olvasható. A negyedik rétegben ezért a magyar költemény mellé a rövid latin változat szövegét helyeztük el, amelyet a <persName ref="//viaf.org/viaf/73866279">Bernhard Bischoff</persName> által gondozott kritikai kiadásból, a vers második részének elhagyásával nyertünk.</p>
-					<p>Köszönetet mondunk A. Molnár Ferencnek, Korompay Klárának, Madas Editnek, Simoncsics Péternek értő és ösztönző bírálataikért, tanácsaikért, Peti Péternek (Tripont Kft.) és Földesi Ferencnek a fényképezésért. Külön köszönet az ELTE most megszüntetett Reneszánsz tanulmányok mesterképzési szak két avatott hallgatójának, Keresztény Júliának és Vrabély Márknak.</p>
+					<p>A
+						<hi rend="italic">Christus poetice planctus</hi>
+						elég szorosan követte irodalmi mintáját,
+						<persName ref="//viaf.org/viaf/261910300">Godefridus de Sancto Victore</persName>
+						<hi rend="italic">Planctus ante nescia</hi>
+						kezdetű költeményének rövid változatát, amelynek nagyon hibás másolata a Leuveni kódexben olvasható. A negyedik rétegben ezért a magyar költemény mellé a rövid latin változat szövegét helyeztük el, amelyet a
+						<persName ref="//viaf.org/viaf/73866279">Bernhard Bischoff</persName>
+						által gondozott kritikai kiadásból, a vers második részének elhagyásával nyertünk.</p>
+					<p>Köszönetet mondunk A. Molnár Ferencnek, Korompay Klárának, Madas Editnek, Simoncsics Péternek értő és ösztönző bírálataikért, tanácsaikért, Peti Péternek (Tripont Kft.) és Földesi Ferencnek a fényképezésért. Külön köszönet az ELTE most
+						megszüntetett Reneszánsz tanulmányok mesterképzési szak két avatott hallgatójának, Keresztény Júliának és Vrabély Márknak.</p>
 				</note>
 			</notesStmt>
 		</fileDesc>
 		<encodingDesc>
-			<p>A kiadás három kódolt szöveges rétegből áll, mely rétegeket az xml:id-kel operáló link elem kapcsolja össze a strófa szintjén. Ezek a rétegek:<lb/> 1) a magyar siralom egyetlen, Leuveni kódexbeli forrását feldolgozó kritikai szöveg, mely betűhű, s a szöveghibákat és lehetséges javításait egyaránt rögzíti, valamint szövegkritikai jegyzeteket tartalmaz (tehát a kiadás diplomatikai és kritikai rétege); <lb/>2) a kritikai szöveg modern helyesírású átirata, mely a nyelvi és verstani sajátosságok megőrzésére törekszik, valamint értelmező jegyzeteket tartalmaz; <lb/>3) a magyar siralom előképéül szolgáló latin rövid planctusoknak a kritikai kiadása <ref target="#bischoff"><persName ref="//viaf.org/viaf/73866279">Bernhard Bischoff</persName>
-				</ref> szövegkiadásának, jegyzeteinek felhasználásával.</p>
-			<p>Mivel jelen kiadás érdeklődése a szöveg irodalmi értékeire fókuszál, a tagolójelek értelmezése (az elválasztójelek rögzítésén túl) a metrikai funkció megletére korlátozódik. A kritikai szöveg minden írásjele kódolva van a punctuation character elem segítségével. Az elem attribútumai: @force: szóelválasztó (strong), vagy nem (weak); @type: metrikai tagolójel-e (met); @unit: a metrikai tagolójel sorzáró (l) vagy strófazáró (lg). A modernizált szövegben az írásjeleket a mai helyesírásnak megfelelően írtuk át.</p>
+			<p>A kiadás három kódolt szöveges rétegből áll, mely rétegeket az xml:id-kel operáló link elem kapcsolja össze a strófa szintjén. Ezek a rétegek:<lb/>
+				1) a magyar siralom egyetlen, Leuveni kódexbeli forrását feldolgozó kritikai szöveg, mely betűhű, s a szöveghibákat és lehetséges javításait egyaránt rögzíti, valamint szövegkritikai jegyzeteket tartalmaz (tehát a kiadás diplomatikai és kritikai
+				rétege);
+				<lb/>2) a kritikai szöveg modern helyesírású átirata, mely a nyelvi és verstani sajátosságok megőrzésére törekszik, valamint értelmező jegyzeteket tartalmaz;
+				<lb/>3) a magyar siralom előképéül szolgáló latin rövid planctusoknak a kritikai kiadása
+				<ref target="#bischoff">
+					<persName ref="//viaf.org/viaf/73866279">Bernhard Bischoff</persName>
+				</ref>
+				szövegkiadásának, jegyzeteinek felhasználásával.</p>
+			<p>Mivel jelen kiadás érdeklődése a szöveg irodalmi értékeire fókuszál, a tagolójelek értelmezése (az elválasztójelek rögzítésén túl) a metrikai funkció megletére korlátozódik. A kritikai szöveg minden írásjele kódolva van a punctuation character
+				elem segítségével. Az elem attribútumai: @force: szóelválasztó (strong), vagy nem (weak); @type: metrikai tagolójel-e (met); @unit: a metrikai tagolójel sorzáró (l) vagy strófazáró (lg). A modernizált szövegben az írásjeleket a mai helyesírásnak
+				megfelelően írtuk át.</p>
 			<p></p>
 		</encodingDesc>
 	</teiHeader>
@@ -148,101 +193,196 @@
 				<list>
 					<item xml:id="kritikai">A forrás jegyzetapparátussal ellátott kritikai szövege (betűhű)</item>
 					<item xml:id="modern">A kritikai szöveg modernizált helyesírású átirata</item>
-					<item xml:id="latin">A rövid latin <hi rend="italic">Planctus</hi>ok kritikai szövege <ref target="#bischoff">Bischoff</ref> nyomán (1a-8b)</item>
+					<item xml:id="latin">A rövid latin
+						<hi rend="italic">Planctus</hi>ok kritikai szövege
+						<ref target="#bischoff">Bischoff</ref>
+						nyomán (1a-8b)</item>
 				</list>
 			</div>
 		</front>
 		<body>
 			<div corresp="#kritikai" xml:lang="hun">
 				<head>
-					<title xml:id="k01" ref="../vm-images/christusTitle.png">Christus poetice planctus<note xml:id="n1">[Tollhiba? A forrásban a rövidítések feloldásával:] Christus poetico planctus [A költemény szerzői megnevezése – tehát címe – a Leuveni kódex 254r alapján. <ref target="#kB01">Vizkelety András (2004</ref>: 140) második szövegjavítási feltevését fogadtuk el: „A poetico jelző mellé kívánkozik egy főnév (például modo, esetleg stylo poetico), vagy a melléknévből határozószót kellett volna kreálni (poetice)”. Kiss Farkas Gábor azon alapuló szövegjavítási tanácsa, hogy az -us rövidítés farkának elhagyásával o-t kapnánk: poeticus planctus. (KFG szóbeli közlése.)]</note>
+					<title xml:id="k01" ref="../vm-images/christusTitle.png">Christus poetice planctus<note xml:id="n1">[Tollhiba? A forrásban a rövidítések feloldásával:] Christus poetico planctus [A költemény szerzői megnevezése – tehát címe – a Leuveni kódex 254r alapján.
+							<ref target="#kB01">Vizkelety András (2004</ref>: 140) második szövegjavítási feltevését fogadtuk el: „A poetico jelző mellé kívánkozik egy főnév (például modo, esetleg stylo poetico), vagy a melléknévből határozószót kellett volna kreálni
+							(poetice)”. Kiss Farkas Gábor azon alapuló szövegjavítási tanácsa, hogy az -us rövidítés farkának elhagyásával o-t kapnánk: poeticus planctus. (KFG szóbeli közlése.)]</note>
 					</title>
 				</head>
 				<lg n="1" xml:id="k1a">
-					<l>			
-						Volek <choice><orig>ſ</orig><reg>s</reg></choice>yrolm thudothlon </l>
-					<l><choice><orig>ſ</orig><reg>s</reg></choice>y<lb/>rolmol <choice><orig>ſ</orig><reg>s</reg></choice>epedyk <pc force="weak" type="met" unit="l">·</pc>
+					<l>
+						Volek
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>yrolm thudothlon
 					</l>
-					<l>buol ozuk<lb/>epedek <pc force="weak" type="met" unit="lg">·</pc>
+					<l>
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>y<lb/>rolmol
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>epedyk
+						<pc force="weak" type="met" unit="l">·</pc>
+					</l>
+					<l>buol ozuk<lb/>epedek
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 				<lg n="2" xml:id="k1b">
-					<l>Wala<choice><orig>ſ</orig><reg>s</reg></choice>th vylagum<lb/>tul </l>
-					<l><choice><orig>ſ</orig><reg>s</reg></choice>ydou fyodumtul </l>
-					<l>ezes <lb/>urumemtuul <pc force="weak" type="met" unit="lg">·</pc>
+					<l>Wala<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>th vylagum<lb/>tul
+					</l>
+					<l>
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>ydou fyodumtul
+					</l>
+					<l>ezes
+						<lb/>urumemtuul
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 				<lg n="3" xml:id="k2a">
-					<l>O en e<choice><orig>ſ</orig><reg>s</reg></choice>es urodum<lb/>
+					<l>O en e<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>es urodum<lb/>
 					</l>
-					<l>eggen yg fyodum <choice><orig><pc force="weak" type="met" unit="l">x</pc>
+					<l>eggen yg fyodum
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">x</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l><choice><orig>ſ</orig><reg>s</reg></choice>yrou a<pc part="I" force="strong">x</pc>
+					<l>
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>yrou a<pc part="I" force="strong">x</pc>
 						<lb/>
-						<pc part="F" force="strong">/</pc>niath thekunched </l>
-					<l>buabeleul <lb/>kyniuhhad <pc force="weak" type="met" unit="lg">·</pc>
+						<pc part="F" force="strong">/</pc>niath thekunched
+					</l>
+					<l>buabeleul
+						<lb/>kyniuhhad
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 				<lg n="4" xml:id="k2b">
-					<l>Scemem kunuel <lb/>arad </l>
-					<l>en iunhum buol farad <choice><orig><pc force="weak" type="met" unit="l">x</pc>
+					<l>Scemem kunuel
+						<lb/>arad
+					</l>
+					<l>en iunhum buol farad
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">x</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 						<lb/>
 					</l>
-					<l>the werud hullothya </l>
+					<l>the werud hullothya
+					</l>
 					<l>en iun<pc force="strong" part="I">/</pc>
 						<lb/>
-						<pc part="F" force="strong">/</pc>hum olelothya </l>
+						<pc part="F" force="strong">/</pc>hum olelothya
+					</l>
 				</lg>
 				<lg n="5" xml:id="k3a">
-					<l>Vylag uila<lb/>ga </l>
-					<l>viragnak uiraga <pc force="weak" type="met" unit="l">·</pc>
+					<l>Vylag uila<lb/>ga
 					</l>
-					<l>keser<choice><orig>ſ</orig><reg>s</reg></choice><pc force="strong" part="I">/</pc>
+					<l>viragnak uiraga
+						<pc force="weak" type="met" unit="l">·</pc>
+					</l>
+					<l>keser<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>
+						<pc force="strong" part="I">/</pc>
 						<lb/>
-						<pc part="F" force="strong">/</pc>en kynzathul <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+						<pc part="F" force="strong">/</pc>en kynzathul
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>uo<choice><orig>ſ</orig><reg>s</reg></choice> <choice><orig>ſ</orig><reg>s</reg></choice>cegegkel <lb/>werethul <pc force="weak" type="met" unit="lg">·</pc>
+					<l>uo<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>cegegkel
+						<lb/>werethul
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 				<lg n="6" xml:id="k3b">
-					<l>Vh nequem en <lb/>
+					<l>Vh nequem en
+						<lb/>
 						<choice>
 							<sic>fyon</sic>
 							<corr>fyom</corr>
 						</choice>
 						<note xml:id="n2">Tollhiba. A forrásban: fyon</note>
 					</l>
-					<l>ezes mezuul <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>ezes mezuul
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
 					<l>Scege<lb/>
-						<pc force="strong">/</pc>nul <choice><orig>ſ</orig><reg>s</reg></choice>cep<choice><orig>ſ</orig><reg>s</reg></choice>egud </l>
-					<l>wirud hioll <lb/>wyzeul <pc force="weak" type="met" unit="lg">·</pc>
+						<pc force="strong">/</pc>nul
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>cep<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>egud
+					</l>
+					<l>wirud hioll
+						<lb/>wyzeul
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 				<lg n="7" xml:id="k6b">
 					<l>Syrolmom fuha<lb/>
-						<seg>/</seg>zatum </l>
-					<l>therthetyk kyul </l>
-					<l>en <lb/>
+						<seg>/</seg>zatum
+					</l>
+					<l>therthetyk kyul
+					</l>
+					<l>en
+						<lb/>
 						<choice>
-							<sic>iumhumnok </sic>
-							<corr>iunhumnok </corr>
+							<sic>iumhumnok
+							</sic>
+							<corr>iunhumnok
+							</corr>
 						</choice>
-						<note xml:id="n3">Tollhiba. A forrásban: iumhumnok</note>bel bua </l>
-					<l>qui 	<note xml:id="n4" cert="low">quí [Írástechnikai változat]</note>
-						<lb/><choice><orig>ſ</orig><reg>s</reg></choice>umha nym <del>kyul</del>
+						<note xml:id="n3">Tollhiba. A forrásban: iumhumnok</note>bel bua
+					</l>
+					<l>qui
+						<note xml:id="n4" cert="low">quí [Írástechnikai változat]</note>
+						<lb/>
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>umha nym
+						<del>kyul</del>
 						<add>hyul</add>
 						<note xml:id="n5">Azonnali törlés.</note>
 						<pc force="weak" type="met" unit="lg">·</pc>
@@ -250,23 +390,34 @@
 					</l>
 				</lg>
 				<lg n="8" xml:id="k7a">
-					<l>Wegh halal engumet <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>Wegh halal engumet
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
 					<l>egge<pc force="strong">/</pc>
-						<lb/>dum illen <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+						<lb/>dum illen
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>maraggun uro<lb/>dum <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>maraggun uro<lb/>dum
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>kyth wylag <choice><sic>felleyn</sic>
+					<l>kyth wylag
+						<choice>
+							<sic>felleyn</sic>
 							<corr>fellyen</corr>
 						</choice>
 						<note xml:id="n6">Tollhiba. A forrásban: felleyn</note>
@@ -275,25 +426,46 @@
 					</l>
 				</lg>
 				<lg n="9" xml:id="k6a">
-					<l>O ygoz <choice><orig>ſ</orig><reg>s</reg></choice>ymeonnok <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>O ygoz
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>ymeonnok
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>bezzeg <lb/><choice><orig>ſ</orig><reg>s</reg></choice>couuo ere </l>
+					<l>bezzeg
+						<lb/>
+						<choice>
+							<orig>ſ</orig>
+							<reg>s</reg>
+						</choice>couuo ere
+					</l>
 					<l>en erzem ez bu<pc force="strong">/</pc>
-						<lb/>thuruth <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+						<lb/>thuruth
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>kyt niha egyre <pc force="weak" type="met" unit="lg">·</pc>
+					<l>kyt niha egyre
+						<pc force="weak" type="met" unit="lg">·</pc>
 						<lb/>
 					</l>
 				</lg>
 				<lg n="10" xml:id="k7b">
-					<l>Tuled <choice><sic>ualmun </sic>
-							<corr>ualnom </corr>
+					<l>Tuled
+						<choice>
+							<sic>ualmun
+							</sic>
+							<corr>ualnom
+							</corr>
 						</choice>
 						<note xml:id="n7">Tollhiba. A forrásban: ualmun</note>
 						<choice>
@@ -303,94 +475,149 @@
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>de num <lb/>ualallal <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>de num
+						<lb/>ualallal
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>hul yg kynza<choice><orig>ſſ</orig><reg>ss</reg></choice>al <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>hul yg kynza<choice>
+							<orig>ſſ</orig>
+							<reg>ss</reg>
+						</choice>al
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 						<lb/>
 					</l>
-					<l>fyom halallal <pc force="weak" type="met" unit="lg">·</pc>
+					<l>fyom halallal
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 				<lg n="11" xml:id="k8a">
-					<l>Sydou <lb/>myth thez turuentelen <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>Sydou
+						<lb/>myth thez turuentelen
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 						<lb/>
 					</l>
-					<l>fyom merth hol byuntelen <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>fyom merth hol byuntelen
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 						<lb/>
 					</l>
-					<l>fugwa <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>fugwa
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>huztuzwa <choice><orig><pc xml:id="nulla"/>
+					<l>huztuzwa
+						<choice>
+							<orig><pc xml:id="nulla"/>
 								<pc xml:id="virgula">/</pc>
 								<certainty locus="value" target="#nulla" degree="0.5">
-									<desc>A forrásban tagolójel nem található, tollhiba okán a virgula elmaradhatott. A strófa második felének rövid metrikai egységei indokolhatnák a sortörést. <ref target="3.1.">Bővebben>></ref><!-- ide jön majd a link a tanulmányra -->
+									<desc>A forrásban tagolójel nem található, tollhiba okán a virgula elmaradhatott. A strófa második felének rövid metrikai egységei indokolhatnák a sortörést.
+										<ref target="3.1.">Bővebben>></ref>
+										<!-- ide jön majd a link a tanulmányra -->
 									</desc>
 								</certainty>
 								<certainty locus="value" target="#virgula" degree="0.5">
-									<desc>A forrásban tagolójel nem található, tollhiba okán a virgula elmaradhatott. A strófa második felének rövid metrikai egységei indokolhatnák a sortörést. <ref target="3.1.">Bővebben>></ref><!-- ide jön majd a link a tanulmányra -->
+									<desc>A forrásban tagolójel nem található, tollhiba okán a virgula elmaradhatott. A strófa második felének rövid metrikai egységei indokolhatnák a sortörést.
+										<ref target="3.1.">Bővebben>></ref>
+										<!-- ide jön majd a link a tanulmányra -->
 									</desc>
 								</certainty>
 							</orig>
 							<reg>–</reg>
-						</choice> wklel<pc force="strong" part="I">/</pc>
+						</choice>
+						wklel<pc force="strong" part="I">/</pc>
 						<lb/>
-						<pc part="F" force="strong">/</pc>ue <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+						<pc part="F" force="strong">/</pc>ue
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>kethwe <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>kethwe
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>ulud <pc force="weak" type="met" unit="lg">·</pc>
+					<l>ulud
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 				<lg n="12" xml:id="k8b">
 					<l>Kegug<lb/>
-						<pc force="strong">/</pc>gethuk fyomnok <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+						<pc force="strong">/</pc>gethuk fyomnok
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>ne leg <lb/>kegulm mogomnok <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>ne leg
+						<lb/>kegulm mogomnok
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>owog <lb/>halal kynaal <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>owog
+						<lb/>halal kynaal
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>anyath ezes <lb/>fyaal <choice><orig><pc force="weak" type="met" unit="l">/</pc>
+					<l>anyath ezes
+						<lb/>fyaal
+						<choice>
+							<orig>
+								<pc force="weak" type="met" unit="l">/</pc>
 							</orig>
 							<reg>–</reg>
 						</choice>
 					</l>
-					<l>egembelu ullyetuk <pc force="weak" type="met" unit="lg">·</pc>
+					<l>egembelu ullyetuk
+						<pc force="weak" type="met" unit="lg">·</pc>
 					</l>
 				</lg>
 			</div>
 			<div corresp="#modern" xml:lang="hun">
 				<head>
-					<title xml:id="m01">A versben elsiratott Krisztus<note>Vagy hibás latinsággal Christus. Poetico-planctus [Krisztus. Verses siralom]. A <hi rend="italic">Christus poetico planctus</hi> a költemény szerzői megnevezése – tehát címe – a Leuveni kódex 254r alapján. <ref target="#kB01">Vizkelety András (2004:</ref> 140) második szövegjavítási feltevését fogadtuk el: „A poetico jelző mellé kívánkozik egy főnév (például modo, esetleg stylo poetico), vagy a melléknévből határozószót kellett volna kreálni (poetice)”.</note>
+					<title xml:id="m01">A versben elsiratott Krisztus<note>Vagy hibás latinsággal Christus. Poetico-planctus [Krisztus. Verses siralom]. A
+							<hi rend="italic">Christus poetico planctus</hi>
+							a költemény szerzői megnevezése – tehát címe – a Leuveni kódex 254r alapján.
+							<ref target="#kB01">Vizkelety András (2004:</ref>
+							140) második szövegjavítási feltevését fogadtuk el: „A poetico jelző mellé kívánkozik egy főnév (például modo, esetleg stylo poetico), vagy a melléknévből határozószót kellett volna kreálni (poetice)”.</note>
 					</title>
 				</head>
 				<lg n="1" xml:id="m1a">
@@ -407,12 +634,19 @@
 					<l>Ó, én ézes uradom,</l>
 					<l>egyen igy fiadom,</l>
 					<l>síró anyát teküntsed,</l>
-					<l>búabelől kinyuhhad.<note>Kinyújtsad, 'kihúzzad' jelentésben. <ref target="3.2.1.6.">Bővebben>></ref><!-- ide jön majd a link a tanulmányra -->
+					<l>búabelől kinyuhhad.<note>Kinyújtsad, 'kihúzzad' jelentésben.
+							<ref target="3.2.1.6.">Bővebben>></ref>
+							<!-- ide jön majd a link a tanulmányra -->
 						</note>
 					</l>
 				</lg>
 				<lg n="4" xml:id="m2b">
-					<l>Szemem künyüel<note>A <hi rend="italic">könyű</hi> alakot a <ref target="#kB04">Czuczor-Fogarasi</ref> szótár még a korabeli irodalmi nyelv részének tartja.</note> árad,</l>
+					<l>Szemem künyüel<note>A
+							<hi rend="italic">könyű</hi>
+							alakot a
+							<ref target="#kB04">Czuczor-Fogarasi</ref>
+							szótár még a korabeli irodalmi nyelv részének tartja.</note>
+						árad,</l>
 					<l>én jonhom búal fárad,</l>
 					<l>te vérüd hullatja</l>
 					<l>én jonhom alélatja.</l>
@@ -430,23 +664,49 @@
 						<w xml:id="szegeny">szegényül</w>
 						<w xml:id="szegyen">szégyenül</w>
 						<certainty locus="value" target="#szegeny" degree="0.5">
-							<desc>A <hi rend="italic">scegenul</hi> egyaránt feloldható <hi rend="italic">szegényül</hi> és <hi rend="italic">szégyenül</hi> alakkal. <ref target="3.2.1.5.">Bővebben>></ref><!-- ide jön majd a link a tanulmányra -->
+							<desc>A
+								<hi rend="italic">scegenul</hi>
+								egyaránt feloldható
+								<hi rend="italic">szegényül</hi>
+								és
+								<hi rend="italic">szégyenül</hi>
+								alakkal.
+								<ref target="3.2.1.5.">Bővebben>></ref>
+								<!-- ide jön majd a link a tanulmányra -->
 							</desc>
 						</certainty>
 						<certainty locus="value" target="#szegyen" degree="0.5">
-							<desc>A <hi rend="italic">scegenul</hi> egyaránt feloldható <hi rend="italic">szégyenül</hi> és <hi rend="italic">szegényül</hi> alakkal. <ref target="3.2.1.5.">Bővebben>></ref><!-- ide jön majd a link a tanulmányra -->
+							<desc>A
+								<hi rend="italic">scegenul</hi>
+								egyaránt feloldható
+								<hi rend="italic">szégyenül</hi>
+								és
+								<hi rend="italic">szegényül</hi>
+								alakkal.
+								<ref target="3.2.1.5.">Bővebben>></ref>
+								<!-- ide jön majd a link a tanulmányra -->
 							</desc>
 						</certainty>
-							szépségüd,</l>
+						szépségüd,</l>
 					<l>vírüd hull vízül.</l>
 				</lg>
 				<lg n="7" xml:id="m6b">
 					<l>Siralmam, fohászatom</l>
-					<l>terjtetik<note><ref target="#kB02">Pais Dezső (1942</ref>: 33) a <hi rend="italic">therthetyk</hi> 'terjed, mutatkozik' értelmezése nyomán.<ref target="3.2.1.4.">Bővebben>></ref><!-- ide jön majd a link a tanulmányra -->
-						</note> kíül,</l>
+					<l>terjtetik<note>
+							<ref target="#kB02">Pais Dezső (1942</ref>: 33) a
+							<hi rend="italic">therthetyk</hi>
+							'terjed, mutatkozik' értelmezése nyomán.<ref target="3.2.1.4.">Bővebben>></ref>
+							<!-- ide jön majd a link a tanulmányra -->
+						</note>
+						kíül,</l>
 					<l>én jonhomnak bel búa,</l>
-					<l>ki somha<note>Alternatív alaki olvasatai: <hi rend="italic">sümhá</hi>, vö. <ref target="kB05">A. Molnár 2003</ref>, 59, <ref target="kB06">Benkő 1980</ref>, 52.</note>
-						<ref target="kB07">TESz</ref> szerint <hi rend="italic">*sëmha</hi>, vö. "Hangrendi hasonulással, továbbá denazalizálódással fejlődött." nüm hűl.</l>
+					<l>ki somha<note>Alternatív alaki olvasatai:
+							<hi rend="italic">sümhá</hi>, vö.
+							<ref target="kB05">A. Molnár 2003</ref>, 59,
+							<ref target="kB06">Benkő 1980</ref>, 52.</note>
+						<ref target="kB07">TESz</ref>
+						szerint
+						<hi rend="italic">*sëmha</hi>, vö. "Hangrendi hasonulással, továbbá denazalizálódással fejlődött." nüm hűl.</l>
 				</lg>
 				<lg n="8" xml:id="m7a">
 					<l>Végy halál engümet,</l>
@@ -462,7 +722,15 @@
 				</lg>
 				<lg n="10" xml:id="m7b">
 					<l>Tűled válnom,</l>
-					<l>de nüm válállal, <note><ref target="#kB03">Négyesy László (1927</ref>: 376) nyomán a <hi rend="italic">ualallal</hi> értelmezése: a <hi rend="italic">válik</hi> ige névszói alakjaként <hi rend="italic">válállal</hi>. Jelentése 'válás, elválás', esetleg 'elbúcsúzás'. <ref target="3.2.1.7.">Bővebben>></ref>
+					<l>de nüm válállal,
+						<note>
+							<ref target="#kB03">Négyesy László (1927</ref>: 376) nyomán a
+							<hi rend="italic">ualallal</hi>
+							értelmezése: a
+							<hi rend="italic">válik</hi>
+							ige névszói alakjaként
+							<hi rend="italic">válállal</hi>. Jelentése 'válás, elválás', esetleg 'elbúcsúzás'.
+							<ref target="3.2.1.7.">Bővebben>></ref>
 						</note>
 					</l>
 					<l>hol így kínzassál,</l>
@@ -470,7 +738,9 @@
 				</lg>
 				<lg n="11" xml:id="m8a">
 					<l>Zsidó, mit téssz, türvénytelen,</l>
-					<l>fiam mert hal bűntelen:<note>Korompay Klára felvetését követve a <hi rend="italic">byuntelen</hi> [iü] diftongusát hosszú magánhangzóként írtuk át.<ref target="3.2.1.3.">Bővebben>></ref>
+					<l>fiam mert hal bűntelen:<note>Korompay Klára felvetését követve a
+							<hi rend="italic">byuntelen</hi>
+							[iü] diftongusát hosszú magánhangzóként írtuk át.<ref target="3.2.1.3.">Bővebben>></ref>
 						</note>
 					</l>
 					<l>fogva,</l>
@@ -489,198 +759,389 @@
 			<div corresp="#latin" xml:lang="lat">
 				<head>
 					<title xml:id="l01"/>
-					<title type="desc">A latin <hi rend="italic">Planctus</hi> kritikai szövege <ref target="#bischoff">Bischoff</ref> nyomán.<note>A jegyzetekben található rövidítéseket lásd a <ref target="#latinBibl">bibliográfiában</ref>.</note>
+					<title type="desc">A latin
+						<hi rend="italic">Planctus</hi>
+						kritikai szövege
+						<ref target="#bischoff">Bischoff</ref>
+						nyomán.<note>A jegyzetekben található rövidítéseket lásd a
+							<ref target="#latinBibl">bibliográfiában</ref>.</note>
 					</title>
 				</head>
 				<lg n="1" xml:id="l1a">
-					<l>Planctus ante<note>ante <hi rend="italic">helyett</hi> prius <hi rend="italic">K</hi>
-						</note> nescia,</l>
-					<l>planctu lassor<note>plantula solor <hi rend="italic">(r javítva l-re), efelett</hi> lassor <hi rend="italic">(talán h22-ből?) B</hi>
-						</note> anxia,</l>
+					<l>Planctus ante<note>ante
+							<hi rend="italic">helyett</hi>
+							prius
+							<hi rend="italic">K</hi>
+						</note>
+						nescia,</l>
+					<l>planctu lassor<note>plantula solor
+							<hi rend="italic">(r javítva l-re), efelett</hi>
+							lassor
+							<hi rend="italic">(talán h22-ből?) B</hi>
+						</note>
+						anxia,</l>
 					<l>crucior dolore;</l>
 				</lg>
 				<lg n="2" xml:id="l1b">
-					<l>orbat orbem<note>Orbem orbat <hi rend="italic">K</hi>
-						</note> radio,</l>
-					<l>me Iudea<note>iudea <hi rend="italic">(-am végződésből javítva) B</hi>
-						</note> filio,</l>
-					<l>gaudio,<note>gaudii <hi rend="italic">E1 E2 Ma O P3;</hi> gaudeo <hi rend="italic">R;</hi> mentibus <hi rend="italic">B</hi>
-						</note> dulcore.</l>
-					<note>1b <hi rend="italic">hiányzik Pr-ből</hi>
+					<l>orbat orbem<note>Orbem orbat
+							<hi rend="italic">K</hi>
+						</note>
+						radio,</l>
+					<l>me Iudea<note>iudea
+							<hi rend="italic">(-am végződésből javítva) B</hi>
+						</note>
+						filio,</l>
+					<l>gaudio,<note>gaudii
+							<hi rend="italic">E1 E2 Ma O P3;</hi>
+							gaudeo
+							<hi rend="italic">R;</hi>
+							mentibus
+							<hi rend="italic">B</hi>
+						</note>
+						dulcore.</l>
+					<note>1b
+						<hi rend="italic">hiányzik Pr-ből</hi>
 					</note>
 				</lg>
 				<lg n="3" xml:id="l2a">
-					<l>Fili,<note>Fili <hi rend="italic">helyett</hi> Mi <hi rend="italic">Pr</hi>
-						</note> dulcor unice,</l>
-					<l>singulare gaudium,<note>gaudium <hi rend="italic">áthúzva:</hi> lilium <hi rend="italic">P3</hi>
+					<l>Fili,<note>Fili
+							<hi rend="italic">helyett</hi>
+							Mi
+							<hi rend="italic">Pr</hi>
+						</note>
+						dulcor unice,</l>
+					<l>singulare gaudium,<note>gaudium
+							<hi rend="italic">áthúzva:</hi>
+							lilium
+							<hi rend="italic">P3</hi>
 						</note>
 					</l>
 					<l>matrem flentem respice</l>
-					<l>conferens<note>conferens <hi rend="italic">helyett</hi> porrige <hi rend="italic">E1 E2 Ma O P3</hi>
-						</note> solatium.</l>
+					<l>conferens<note>conferens
+							<hi rend="italic">helyett</hi>
+							porrige
+							<hi rend="italic">E1 E2 Ma O P3</hi>
+						</note>
+						solatium.</l>
 				</lg>
 				<lg n="4" xml:id="l2b">
-					<l>Pectus, mentem,<note>Mentem pectus <hi rend="italic">B K R2;</hi> mentem <hi rend="italic">hiányzik Pr</hi>
-						</note> lumina</l>
-					<l>tua torquent<note>torquent tua <hi rend="italic">E1 E2 La N P2</hi>
-						</note> vulnera.<note>vulnera <hi rend="italic">helyett</hi> viscera <hi rend="italic">R1</hi>
+					<l>Pectus, mentem,<note>Mentem pectus
+							<hi rend="italic">B K R2;</hi>
+							mentem
+							<hi rend="italic">hiányzik Pr</hi>
+						</note>
+						lumina</l>
+					<l>tua torquent<note>torquent tua
+							<hi rend="italic">E1 E2 La N P2</hi>
+						</note>
+						vulnera.<note>vulnera
+							<hi rend="italic">helyett</hi>
+							viscera
+							<hi rend="italic">R1</hi>
 						</note>
 					</l>
-					<l>que mater, que<note>que… que <hi rend="italic">helyett</hi> et… et <hi rend="italic">Pr;</hi> que… que <hi rend="italic">helyett</hi> quam <hi rend="italic">N</hi>
-						</note> femina</l>
-					<l>tam<note>tam <hi rend="italic">(k1) áthúzva, helyette</hi> quam <hi rend="italic">B</hi>
-						</note> felix, tam<note>quam <hi rend="italic">Lo</hi>
-						</note> misera!</l>
+					<l>que mater, que<note>que… que
+							<hi rend="italic">helyett</hi>
+							et… et
+							<hi rend="italic">Pr;</hi>
+							que… que
+							<hi rend="italic">helyett</hi>
+							quam
+							<hi rend="italic">N</hi>
+						</note>
+						femina</l>
+					<l>tam<note>tam
+							<hi rend="italic">(k1) áthúzva, helyette</hi>
+							quam
+							<hi rend="italic">B</hi>
+						</note>
+						felix, tam<note>quam
+							<hi rend="italic">Lo</hi>
+						</note>
+						misera!</l>
 				</lg>
 				<lg n="5" xml:id="l3a">
-					<l>Flos florum, dux<note>dux <hi rend="italic">áthúzva:</hi> mos <hi rend="italic">P3</hi>
-						</note> morum,</l>
-					<l>venie vena,<note>uena <hi rend="italic">helyett (Ras.-on keresztül a Pr-ben szereplő uenia-ból)</hi> uenia <hi rend="italic">B</hi>
+					<l>Flos florum, dux<note>dux
+							<hi rend="italic">áthúzva:</hi>
+							mos
+							<hi rend="italic">P3</hi>
+						</note>
+						morum,</l>
+					<l>venie vena,<note>uena
+							<hi rend="italic">helyett (Ras.-on keresztül a Pr-ben szereplő uenia-ból)</hi>
+							uenia
+							<hi rend="italic">B</hi>
 						</note>
 					</l>
-					<l>quam<note>O quam <hi rend="italic">Pr</hi>
-						</note> gravis in clavis</l>
-					<l>est tibi<note>tibi <hi rend="italic">helyett (P2-ben belejavítva)</hi> in <hi rend="italic">Pr</hi>
-						</note> pena.</l>
-					<note>3a <hi rend="italic">versszak hiányzik Lo;</hi> 1/2 (3/4 <hi rend="italic">hiányzik</hi>) 3b<hi rend="italic">-vel egyesítve</hi> 3. 4. 1. 2. <hi rend="italic">B</hi>
+					<l>quam<note>O quam
+							<hi rend="italic">Pr</hi>
+						</note>
+						gravis in clavis</l>
+					<l>est tibi<note>tibi
+							<hi rend="italic">helyett (P2-ben belejavítva)</hi>
+							in
+							<hi rend="italic">Pr</hi>
+						</note>
+						pena.</l>
+					<note>3a
+						<hi rend="italic">versszak hiányzik Lo;</hi>
+						1/2 (3/4
+						<hi rend="italic">hiányzik</hi>) 3b<hi rend="italic">-vel egyesítve</hi>
+						3. 4. 1. 2.
+						<hi rend="italic">B</hi>
 					</note>
 				</lg>
 				<lg n="6" xml:id="l3b">
-					<l>Proh<note>Proh <hi rend="italic">helyett</hi> hinc <hi rend="italic">K</hi>
-						</note> dolor, hinc color<note>color <hi rend="italic">helyett</hi> dolor <hi rend="italic">Pr</hi>
+					<l>Proh<note>Proh
+							<hi rend="italic">helyett</hi>
+							hinc
+							<hi rend="italic">K</hi>
+						</note>
+						dolor, hinc color<note>color
+							<hi rend="italic">helyett</hi>
+							dolor
+							<hi rend="italic">Pr</hi>
 						</note>
 					</l>
-					<l>effugit<note>effudit <hi rend="italic">Lo</hi>
-						</note> oris,</l>
-					<l>hinc ruit, hinc fluit<note>fluit… ruit <hi rend="italic">K La N Pr</hi>
+					<l>effugit<note>effudit
+							<hi rend="italic">Lo</hi>
+						</note>
+						oris,</l>
+					<l>hinc ruit, hinc fluit<note>fluit… ruit
+							<hi rend="italic">K La N Pr</hi>
 						</note>
 					</l>
 					<l>unda cruoris.</l>
 					<note>
-						<hi rend="italic">utána</hi> Crucior dolore (1a, 3) <hi rend="italic">Lo</hi>
+						<hi rend="italic">utána</hi>
+						Crucior dolore (1a, 3)
+						<hi rend="italic">Lo</hi>
 					</note>
 				</lg>
 				<lg n="7" xml:id="l4a">
-					<l>O quam sero deditus,<note>deditus <hi rend="italic">helyett</hi> editus <hi rend="italic">N</hi>
+					<l>O quam sero deditus,<note>deditus
+							<hi rend="italic">helyett</hi>
+							editus
+							<hi rend="italic">N</hi>
 						</note>
 					</l>
-					<l>quam cito me<note>me cito <hi rend="italic">N</hi>
-						</note> deseris;</l>
-					<l>o quam digne genitus,<note>gemitus <hi rend="italic">Lo</hi>
+					<l>quam cito me<note>me cito
+							<hi rend="italic">N</hi>
+						</note>
+						deseris;</l>
+					<l>o quam digne genitus,<note>gemitus
+							<hi rend="italic">Lo</hi>
 						</note>
 					</l>
-					<l>quam<note>tam <hi rend="italic">Lo</hi>
-						</note> abiecte moreris.</l>
-					<note>4a <hi rend="italic">hiányzik B K; utána</hi> crucior dolore <hi rend="italic">Lo</hi>
+					<l>quam<note>tam
+							<hi rend="italic">Lo</hi>
+						</note>
+						abiecte moreris.</l>
+					<note>4a
+						<hi rend="italic">hiányzik B K; utána</hi>
+						crucior dolore
+						<hi rend="italic">Lo</hi>
 					</note>
 				</lg>
 				<lg n="8" xml:id="l4b">
 					<l>O quis amor corporis</l>
-					<l>tibi fecit<note>sibi fecit <hi rend="italic">P1,</hi> fecit tibi <hi rend="italic">Pr P2</hi>
-						</note> spolia;</l>
-					<l>o quam dulcis<note>dulcis <hi rend="italic">helyett</hi> digni <hi rend="italic">Lo</hi>
-						</note> pignoris</l>
-					<l>quam<note>tam <hi rend="italic">Lo N Pr</hi>
-						</note> amara<note>amara <hi rend="italic">helyett</hi> abiecta <hi rend="italic">P2</hi>
-						</note> premia.</l>
-					<note>4b <hi rend="italic">versszak a</hi> 4a <hi rend="italic">előtt Lo,</hi> 4b <hi rend="italic">hiányzik B K</hi>
+					<l>tibi fecit<note>sibi fecit
+							<hi rend="italic">P1,</hi>
+							fecit tibi
+							<hi rend="italic">Pr P2</hi>
+						</note>
+						spolia;</l>
+					<l>o quam dulcis<note>dulcis
+							<hi rend="italic">helyett</hi>
+							digni
+							<hi rend="italic">Lo</hi>
+						</note>
+						pignoris</l>
+					<l>quam<note>tam
+							<hi rend="italic">Lo N Pr</hi>
+						</note>
+						amara<note>amara
+							<hi rend="italic">helyett</hi>
+							abiecta
+							<hi rend="italic">P2</hi>
+						</note>
+						premia.</l>
+					<note>4b
+						<hi rend="italic">versszak a</hi>
+						4a
+						<hi rend="italic">előtt Lo,</hi>
+						4b
+						<hi rend="italic">hiányzik B K</hi>
 					</note>
 				</lg>
 				<lg n="9" xml:id="l5a">
 					<l>O pia gratia</l>
 					<l>sic morientis,</l>
 					<l>o zelus, o scelus</l>
-					<note>o scelus o zelus <hi rend="italic">E1 E2 K R</hi>
+					<note>o scelus o zelus
+						<hi rend="italic">E1 E2 K R</hi>
 					</note>
 					<l>invide gentis.</l>
 					<note>
-						<hi rend="italic">Lo sorrendje:</hi> 5a, 1<hi rend="italic">-től végig;</hi> 5b; 5a, 3<hi rend="italic">-tól végig,</hi> Crucior dolore <hi rend="italic">utána; R2 sorrendje:</hi> 5a, 1<hi rend="italic">-től végig;</hi> 5b, 3. 4. 1. 2.; 5a, 3 (o zelus o zelus). 4.; 5a <hi rend="italic">versszak hiányzik B</hi>
+						<hi rend="italic">Lo sorrendje:</hi>
+						5a, 1<hi rend="italic">-től végig;</hi>
+						5b; 5a, 3<hi rend="italic">-tól végig,</hi>
+						Crucior dolore
+						<hi rend="italic">utána; R2 sorrendje:</hi>
+						5a, 1<hi rend="italic">-től végig;</hi>
+						5b, 3. 4. 1. 2.; 5a, 3 (o zelus o zelus). 4.; 5a
+						<hi rend="italic">versszak hiányzik B</hi>
 					</note>
 				</lg>
 				<lg n="10" xml:id="l5b">
-					<l>O fera dextera<note>dextra <hi rend="italic">Pr</hi>
+					<l>O fera dextera<note>dextra
+							<hi rend="italic">Pr</hi>
 						</note>
 					</l>
 					<l>crucifigentis,</l>
 					<l>o lenis in penis</l>
 					<l>mens patientis.</l>
-					<note>5b <hi rend="italic">versszak hiányzik B K</hi>
+					<note>5b
+						<hi rend="italic">versszak hiányzik B K</hi>
 					</note>
 				</lg>
 				<lg n="11" xml:id="l6a">
 					<l>O verum eloquium</l>
 					<l>iusti Simeonis!</l>
-					<l>quem promisit,<note>predixit <hi rend="italic">R2</hi>
-						</note> gladium</l>
-					<note>quod promisit gladio <hi rend="italic">Lo</hi>
+					<l>quem promisit,<note>predixit
+							<hi rend="italic">R2</hi>
+						</note>
+						gladium</l>
+					<note>quod promisit gladio
+						<hi rend="italic">Lo</hi>
 					</note>
 					<l>sentio doloris.</l>
-					<note>6a 6b<hi rend="italic">-vel egybeírva B;</hi> 6a <hi rend="italic">versszak hiányzik K</hi>
+					<note>6a 6b<hi rend="italic">-vel egybeírva B;</hi>
+						6a
+						<hi rend="italic">versszak hiányzik K</hi>
 					</note>
 				</lg>
 				<lg n="12" xml:id="l6b">
 					<l>Gemitus, suspiria</l>
 					<l>lacrimeque foris</l>
 					<l>vulneris indicia</l>
-					<l>sunt<note>sunt <hi rend="italic">helyett</hi> sint <hi rend="italic">R</hi>
-						</note> interioris.</l>
+					<l>sunt<note>sunt
+							<hi rend="italic">helyett</hi>
+							sint
+							<hi rend="italic">R</hi>
+						</note>
+						interioris.</l>
 					<note>
-						<hi rend="italic">utána</hi> Crucior dolore <hi rend="italic">Lo</hi>6b <hi rend="italic">versszak hiányzik K</hi>
+						<hi rend="italic">utána</hi>
+						Crucior dolore
+						<hi rend="italic">Lo</hi>6b
+						<hi rend="italic">versszak hiányzik K</hi>
 					</note>
 				</lg>
 				<lg n="13" xml:id="l7a">
-					<l>Parcito<note>Parcite <hi rend="italic">B</hi>
-						</note> proli,<note>proli <hi rend="italic">hiányzik Pr</hi>
+					<l>Parcito<note>Parcite
+							<hi rend="italic">B</hi>
+						</note>
+						proli,<note>proli
+							<hi rend="italic">hiányzik Pr</hi>
 						</note>
 					</l>
-					<l>mors,<note>mors <hi rend="italic">helyett</hi> tu <hi rend="italic">R2</hi>
-						</note> michi noli,<note>noli <hi rend="italic">helyett</hi> soli <hi rend="italic">R1</hi>
+					<l>mors,<note>mors
+							<hi rend="italic">helyett</hi>
+							tu
+							<hi rend="italic">R2</hi>
+						</note>
+						michi noli,<note>noli
+							<hi rend="italic">helyett</hi>
+							soli
+							<hi rend="italic">R1</hi>
 						</note>
 					</l>
-					<l>tunc<note>tu <hi rend="italic">Ma P3 R R2</hi>
-						</note> michi<note>noli… michi <hi rend="italic">hiányzik Lo;</hi>
-						</note> soli</l>
-					<note>tu quid (quit<hi rend="italic">-ről javítva)</hi> tibi soli <hi rend="italic">B</hi>
+					<l>tunc<note>tu
+							<hi rend="italic">Ma P3 R R2</hi>
+						</note>
+						michi<note>noli… michi
+							<hi rend="italic">hiányzik Lo;</hi>
+						</note>
+						soli</l>
+					<note>tu quid (quit<hi rend="italic">-ről javítva)</hi>
+						tibi soli
+						<hi rend="italic">B</hi>
 					</note>
 					<l>sola mederis.</l>
-					<note>7a <hi rend="italic">versszak hiányzik K</hi>
+					<note>7a
+						<hi rend="italic">versszak hiányzik K</hi>
 					</note>
 				</lg>
 				<lg n="14" xml:id="l7b">
 					<l>Morte, beate,</l>
-					<l>separer<note>separor <hi rend="italic">B La,</hi> separarer <hi rend="italic">Pr</hi>
-						</note> a te,</l>
+					<l>separer<note>separor
+							<hi rend="italic">B La,</hi>
+							separarer
+							<hi rend="italic">Pr</hi>
+						</note>
+						a te,</l>
 					<l>dummodo, nate,</l>
-					<l>non<note>non <hi rend="italic">helyett</hi> nunc <hi rend="italic">Lo</hi>
-						</note> crucieris.</l>
-					<note>3–4. sor: ut dum nate sic cruciaris <hi rend="italic">B;</hi> 7b <hi rend="italic">versszak hiányzik K</hi>
+					<l>non<note>non
+							<hi rend="italic">helyett</hi>
+							nunc
+							<hi rend="italic">Lo</hi>
+						</note>
+						crucieris.</l>
+					<note>3–4. sor: ut dum nate sic cruciaris
+						<hi rend="italic">B;</hi>
+						7b
+						<hi rend="italic">versszak hiányzik K</hi>
 					</note>
 				</lg>
 				<lg n="15" xml:id="l8a">
-					<l>Quod<note>Que <hi rend="italic">B</hi>
-						</note> crimen, que scelera</l>
-					<l>gens<note>mens <hi rend="italic">Pr;</hi> commisit gens <hi rend="italic">P3 R;</hi> gens promisit <hi rend="italic">B</hi>
-						</note> commisit effera,</l>
+					<l>Quod<note>Que
+							<hi rend="italic">B</hi>
+						</note>
+						crimen, que scelera</l>
+					<l>gens<note>mens
+							<hi rend="italic">Pr;</hi>
+							commisit gens
+							<hi rend="italic">P3 R;</hi>
+							gens promisit
+							<hi rend="italic">B</hi>
+						</note>
+						commisit effera,</l>
 					<l>vincla, virgas, vulnera,</l>
-					<note>virgam, vincla vulnera <hi rend="italic">B;</hi> probra vincla verbera <hi rend="italic">Lo</hi>
+					<note>virgam, vincla vulnera
+						<hi rend="italic">B;</hi>
+						probra vincla verbera
+						<hi rend="italic">Lo</hi>
 					</note>
 					<l>sputa, spinas, cetera</l>
-					<note>sputa, clavos cetera <hi rend="italic">B Lo</hi>
+					<note>sputa, clavos cetera
+						<hi rend="italic">B Lo</hi>
 					</note>
 					<l>sine culpa patitur.</l>
-					<note>8a <hi rend="italic">versszak hiányzik K</hi>
+					<note>8a
+						<hi rend="italic">versszak hiányzik K</hi>
 					</note>
 				</lg>
 				<lg n="16" xml:id="l8b">
 					<l>Nato, queso, parcite,</l>
-					<l>matrem crucifigite<note>interficite <hi rend="italic">E1 E2</hi>
+					<l>matrem crucifigite<note>interficite
+							<hi rend="italic">E1 E2</hi>
 						</note>
 					</l>
-					<l>aut<note>vel <hi rend="italic">B Pr</hi>
-						</note> in crucis stipite</l>
-					<l>nos<note>me <hi rend="italic">Lo</hi>
-						</note> simul<note>simul nos <hi rend="italic">E2</hi>
-						</note> affigite!<note>affligite <hi rend="italic">K Lo;</hi> configite <hi rend="italic">R2</hi>
+					<l>aut<note>vel
+							<hi rend="italic">B Pr</hi>
+						</note>
+						in crucis stipite</l>
+					<l>nos<note>me
+							<hi rend="italic">Lo</hi>
+						</note>
+						simul<note>simul nos
+							<hi rend="italic">E2</hi>
+						</note>
+						affigite!<note>affligite
+							<hi rend="italic">K Lo;</hi>
+							configite
+							<hi rend="italic">R2</hi>
 						</note>
 					</l>
 					<l>male solus moritur.</l>
