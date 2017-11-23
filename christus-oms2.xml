@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
 <!DOCTYPE TEI SYSTEM "./tei_all.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
