@@ -9,9 +9,9 @@
 			<editionStmt>
 				<edition>Kritikai kiadás 1.0</edition>
 				<respStmt>
-					<resp xml:lang="hun">szerkesztette:
+					<resp xml:lang="hu">szerkesztette:
 					</resp>
-					<resp xml:lang="eng">editor:
+					<resp xml:lang="en">editor:
 					</resp>
 					<persName xml:id="hi" ref="//viaf.org/viaf/36719478">
 						<surname>Horváth</surname>
