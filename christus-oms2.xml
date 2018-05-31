@@ -23,9 +23,9 @@
 					</persName>
 				</respStmt>
 				<respStmt>
-					<resp xml:lang="hun">közreműködtek:
+					<resp xml:lang="hu">közreműködtek:
 					</resp>
-					<resp xml:lang="eng">assistant research fellow:
+					<resp xml:lang="en">assistant research fellow:
 					</resp>
 					<persName xml:id="kj">
 						<surname>Keresztény</surname>
@@ -37,9 +37,9 @@
 					</persName>
 				</respStmt>
 				<respStmt>
-					<resp xml:lang="hun">XML szerkesztés:
+					<resp xml:lang="hu">XML szerkesztés:
 					</resp>
-					<resp xml:lang="eng">XML-editor:
+					<resp xml:lang="en">XML-editor:
 					</resp>
 					<persName xml:id="msz">
 						<surname>Maróthy</surname>
@@ -47,8 +47,8 @@
 					</persName>
 				</respStmt>
 				<respStmt>
-					<resp xml:lang="hun">Technikai segítséget nyújtott:</resp>
-					<resp xml:lang="eng">technical assistant</resp>
+					<resp xml:lang="hu">Technikai segítséget nyújtott:</resp>
+					<resp xml:lang="en">technical assistant</resp>
 					<persName>
 						<surname>Peti</surname>
 						<forename>Péter</forename>
@@ -71,7 +71,7 @@
 				<date when-iso="2017">2017</date>
 				<availability>
 					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-						<p xml:lang="eng">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</p>
+						<p xml:lang="en">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</p>
 						<p xml:id="hun">A mű a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi Licenc alatt van.</p>
 						<ref style="border-width:0" target="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
 					</licence>
@@ -200,7 +200,7 @@
 			</div>
 		</front>
 		<body>
-			<div corresp="#kritikai" xml:lang="hun">
+			<div corresp="#kritikai" xml:lang="hu">
 				<head>
 					<title xml:id="k01" ref="../vm-images/christusTitle.png">Christus poetice planctus<note xml:id="n1">[Tollhiba? A forrásban a rövidítések feloldásával:] Christus poetico planctus [A költemény szerzői megnevezése – tehát címe – a Leuveni kódex 254r alapján.
 							<ref target="#kB01">Vizkelety András (2004</ref>: 140) második szövegjavítási feltevését fogadtuk el: „A poetico jelző mellé kívánkozik egy főnév (például modo, esetleg stylo poetico), vagy a melléknévből határozószót kellett volna kreálni
@@ -610,7 +610,7 @@
 					</l>
 				</lg>
 			</div>
-			<div corresp="#modern" xml:lang="hun">
+			<div corresp="#modern" xml:lang="hu">
 				<head>
 					<title xml:id="m01">A versben elsiratott Krisztus<note>Vagy hibás latinsággal Christus. Poetico-planctus [Krisztus. Verses siralom]. A
 							<hi rend="italic">Christus poetico planctus</hi>
